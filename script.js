@@ -8,6 +8,7 @@ function experiencePoint() {
   }
 }
 
+
 var experiencePoint = winBattle() ? 10 : 1;
 
 // -------------------------------
