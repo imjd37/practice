@@ -53,11 +53,13 @@ console.log(totalScore);
 
 // somemore array practics..
 
-let numArray=[2,3,4,2,2,5,6,7,8,9]
+let numArray=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
 let numArray2=[...numArray].map((x)=>x+1);
  numArray2.push(22);
- console.log(numArray2);
+ 
 
+let numarray5=numArray.slice(1,5,5);
+console.log(numarray5)
 
 newNum=numArray.find((x)=>x>8);
 console.log(newNum);
@@ -70,3 +72,15 @@ console.log(sumArray)
 
 let numArray4= numArray.map((x)=>x*2).reduce((acc,num)=>acc+num);
 console.log(numArray4);
+
+
+const dragons= ['tim','johnathan', 'sandy','sarah'];
+
+console.log(dragons.includes('john'))    //false 
+console.log(dragons.includes('tim'))  //true
+
+console.log(dragons.filter((x)=>x.includes('john')));
+
+
+
+
